@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -11,7 +11,7 @@ export function PracticalInfo() {
                 <span className="text-accent text-sm font-en tracking-widest block mb-4 uppercase">Info & Reservation</span>
                 <h2 className="text-3xl font-light mb-8">가장 편안한 밤을 준비합니다</h2>
                 <div className="flex flex-col gap-4">
-                    <a href="https://booking.naver.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-full md:w-auto px-8 py-4 bg-[#03c75a] text-white font-medium rounded hover:bg-[#02b351] transition-colors">
+                    <a href="https://booking.naver.com/booking/3/bizes/1529802?area=plt" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-full md:w-auto px-8 py-4 bg-[#03c75a] text-white font-medium rounded hover:bg-[#02b351] transition-colors">
                         네이버 객실 예약하기
                     </a>
                     <a href="https://yanolja.com" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center w-full md:w-auto px-8 py-4 bg-[#ff3478] text-white font-medium rounded hover:bg-[#e62e6c] transition-colors">
@@ -38,7 +38,7 @@ export function PracticalInfo() {
                         <span className="w-1 h-1 rounded-full bg-accent block" /> Contact
                     </h3>
                     <p className="text-gray-400 font-light leading-relaxed font-en">
-                        0507-1300-1234
+                        010-7277-4499
                     </p>
                 </div>
                 <div className="sm:col-span-2">
@@ -64,7 +64,7 @@ export function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-xl font-en font-bold tracking-widest text-white/80">DEL LUNA.</div>
             <div className="text-gray-500 text-xs font-light text-center md:text-left">
-                상호: 델루나 호텔 부평 | 대표: 김대표 | 사업자등록번호: 123-45-67890<br/>
+                상호: 델루나 호텔 부평 | 대표: 장서은 | 사업자등록번호: 761-49-01078<br/>
                 인천광역시 부평구 시장로 32
             </div>
             <div className="text-gray-600 text-xs font-en">

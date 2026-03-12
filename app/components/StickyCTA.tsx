@@ -1,4 +1,4 @@
-﻿"use client";
+"use client";
 
 import { motion, AnimatePresence } from "framer-motion";
 import { useState, useEffect } from "react";
@@ -36,7 +36,7 @@ export default function StickyCTA() {
                     <span className="text-lg font-medium tracking-wide font-en">Booking Now</span>
                 </div>
                 <div className="flex gap-2">
-                    <a href="https://booking.naver.com" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl bg-[#03c75a] text-white font-medium text-sm flex items-center justify-center">
+                    <a href="https://booking.naver.com/booking/3/bizes/1529802?area=plt" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl bg-[#03c75a] text-white font-medium text-sm flex items-center justify-center">
                         N예약
                     </a>
                     <a href="https://yanolja.com" target="_blank" rel="noopener noreferrer" className="px-5 py-3 rounded-xl bg-[#ff3478] text-white font-medium text-sm flex items-center justify-center">
