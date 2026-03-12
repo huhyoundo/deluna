@@ -5,6 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://deluna-hotel.vercel.app"),
   title: "인천 부평 델루나 호텔 | 어반 리트리트 (Urban Retreat)",
   description: "부평의 밤을 가장 감각적으로 쉬는 방법. 부평역 인근 최고급 시설, 대형 TV, 무료 OTT, 프라이빗 욕조를 갖춘 델루나 호텔 부평점.",
   openGraph: {
