@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-moonlight: #0a0b0f;
+  --color-surface: rgba(20, 22, 28, 0.6);
+  --color-accent: #d4af37;
+  --color-accent-hover: #e8c655;
+  --color-border: rgba(255, 255, 255, 0.08);
+
+  --font-sans: var(--font-pretendard), var(--font-inter), sans-serif;
+  --font-kr: var(--font-pretendard), sans-serif;
+  --font-en: var(--font-inter), sans-serif;
+}
+
+:root {
+  --background: #0a0b0f;
+  --foreground: #fdfbf7;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+/* Film grain overlay pattern */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.05'/%3E%3C/svg%3E");
+  opacity: 0.04;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
